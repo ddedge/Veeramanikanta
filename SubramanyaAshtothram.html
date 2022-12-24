@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Veeramanikanta</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link href="assets/css/font.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="as_loader">
+        <img src="assets/images/loader.png" alt="" class="img-responsive">
+    </div> 
+    <div class="as_main_wrapper as_about_page">
+        <section class="as_header_wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                        <div class="as_logo text-white">
+                            <a href="index.html">
+                                <h1>Veeramanikanta</h1>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-9 col-sm-8 col-xs-6">
+                        <div class="as_right_info">
+                            <div class="as_menu_wrapper">
+                                <span class="as_toggle">
+                                    <img src="assets/images/svg/menu.svg" alt="">
+                                </span>
+                                <div class="as_menu">
+                                    <ul>
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="#Aboutus">about us</a></li>
+                                        <li><a href="#ganapatipooja">Ganapati Pooja</a></li>
+                                        <li><a href="#subramanyapooja">Subramanya Pooja</a></li>
+                                        <li><a href="#ayyappapooja">Ayyappa Pooja</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+       <section class="as_breadcrum_wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h1>SUBRAMANYA SWAMI ASHTOTHRAM</h1> 
+                        <h4><a href="index.html">Home</a> <span><img src="assets/images/ayyappa/subramanyapooja.png" alt="" style="height: 80px; width: 80px;object-fit: contain;"></span> Ashtothram</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="as_about_wrapper as_padderTop40 as_padderBottom80">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 text-center">
+                        <h1 class="as_heading">Subramanya Swami Ashtothram | సుబ్రమణ్య స్వామి అష్టోత్రం</h1>
+                        <span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="240" height="15" viewBox="0 0 240 15">
+                            <image id="Vector_Smart_Object" data-name="Vector Smart Object" width="240" height="15" xlink:href="data:img/png;base64,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"/>
+                          </svg>
+                          </span>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-3">
+                <div class="row">
+                    
+                    <div class="col-lg-6">
+                        <ul>
+                            <li>om Skandaya Namaha</li>
+                            <li>om Guhaya Namaha</li>
+                            <li>om Shanmugaya Namaha</li>
+                            <li>om Phalanetrasutaya Namaha</li>
+                            <li>om Prabhave Namaha</li>
+                            <li>om Pingalaya Namaha</li>
+                            <li>om Kritikasunave Namaha</li>
+                            <li>om Sikivahaya Namaha</li>
+                            <li>om Dvisadbhujaya Namaha</li>
+                            <li>om Dvisannetraya Namaha</li>
+                            <li>om Saktidharaya Namaha</li>
+                            <li>om Pisitasaprabhamjanaya Namaha</li>
+                            <li>om Tarakasurasamharine Namaha</li>
+                            <li>om Raksobalavimardhanaya Namaha</li>
+                            <li>om Mattaya Namaha</li>
+                            <li>om Pramattaya Namaha</li>
+                            <li>om Unmattaya Namaha</li>
+                            <li>om Surasainyasuraksakaya Namaha</li>
+                            <li>om Devasenapataye Namaha</li>
+                            <li>om Prajnaya Namaha</li>
+                            <li>om Krpalave Namaha</li>
+                            <li>om Bhaktavatsalaya Namaha</li>
+                            <li>om Umasutaya Namaha</li>
+                            <li>om Saktidharaya Namaha</li>
+                            <li>om Kumaraya Namaha</li>
+                            <li>om Kraunchadharanaya Namaha</li>
+                            <li>om Senanyai Namaha</li>
+                            <li>om Agnijanmane Namaha</li>
+                            <li>om Visakhaya Namaha</li>
+                            <li>om Sankaratmajaya Namaha</li>
+                            <li>om Sivasvamine Namaha</li>
+                            <li>om Svaminathaya Namaha</li>
+                            <li>om Sarvasvamine Namaha</li>
+                            <li>om Sanatanaya Namaha</li>
+                            <li>om Anantasaktaye Namaha</li>
+                            <li>om Aksobhyaya Namaha</li>
+                            <li>om Parvatipriyanandanaya Namaha</li>
+                            <li>om Gangasutaya Namaha</li>
+                            <li>om Sarodbhutaya Namaha</li>
+                            <li>om Pavakatmajaya Namaha</li>
+                            <li>om Ganasvamine Namaha</li>
+                            <li>om Atmabhuve Namaha</li>
+                            <li>om Jrmbhaya Namaha</li>
+                            <li>om Prajrmbhaya Namaha</li>
+                            <li>om Ujjrmbhaya Namaha</li>
+                            <li>om Kamalasanasamstutaya Namaha</li>
+                            <li>om Ekavarnaya Namaha</li>
+                            <li>om Dvivarnaya Namaha</li>
+                            <li>om Trivarnaya Namaha</li>
+                            <li>om Sumanoharaya Namaha</li>
+                            <li>om Chaturvarnaya Namaha</li>
+                            <li>om Panchavarnaya Namaha</li>
+                            <li>om Prajapataye Namaha</li>
+                            <li>om Aharpataye Namaha</li>
+                            <li>om Agnigarbhaya Namaha</li>
+                            <li>om Samigarbhaya Namaha</li>
+                            <li>om Visvaretase Namaha</li>
+                            <li>om Surarighnaya Namaha</li>
+                            <li>om Harodvarnaya Namaha</li>
+                            <li>om Subhakaraya Namaha</li>
+                            <li>om Vasavaya Namaha</li>
+                            <li>om Vatuvesabhrte Namaha</li>
+                            <li>om Pusne Namaha</li>
+                            <li>om Gabhastine Namaha</li>
+                            <li>om Gahanaya Namaha</li>
+                            <li>om Chandravarnaya Namaha</li>
+                            <li>om Kaladharaya Namaha</li>
+                            <li>om Mayadharaya Namaha</li>
+                            <li>om Mahamayine Namaha</li>
+                            <li>om Kaivalyaya Namaha</li>
+                            <li>om Sakalatmakaya Namaha</li>
+                            <li>om Visvayonaye Namaha</li>
+                            <li>om Ameyatmane Namaha</li>
+                            <li>om Tejonidhaye Namaha</li>
+                            <li>om Anamayaya Namaha</li>
+                            <li>om Paramesthine Namaha</li>
+                            <li>om Parabrahmane Namaha</li>
+                            <li>om Vedagharbaya Namaha</li>
+                            <li>om Viradvapuse namaha</li>
+                            <li>om Pulindakanyabharte Namaha</li>
+                            <li>om Mahasarasvatavrtaya Namaha</li>
+                            <li>om Asritakhiladatre Namaha</li>
+                            <li>om Choraghnaya Namaha</li>
+                            <li>om Roganasanaya Namaha</li>
+                            <li>om Anantamurtaye Namaha</li>
+                            <li>om Anandaya Namaha</li>
+                            <li>om Sikhandikrtaketanaya Namaha</li>
+                            <li>om Dhambhaya Namaha</li>
+                            <li>om Paramadhambhaya Namaha</li>
+                            <li>om Mahadhambaya Namaha</li>
+                            <li>om Vrsakapaye Namaha</li>
+                            <li>om Karanopattadehaya Namaha</li>
+                            <li>om Karanatitavigrahaya Namaha</li>
+                            <li>om Anisvaraya Namaha</li>
+                            <li>om Amrtaya Namaha</li>
+                            <li>om Pranaya Namaha</li>
+                            <li>om Pranayamaparayanaya Namaha</li>
+                            <li>om Viruddhahantre Namaha</li>
+                            <li>om Viraghnaya Namaha</li>
+                            <li>om Raktasyamagalaya Namaha</li>
+                            <li>om Mahate Namaha</li>
+                            <li>om Subrahmanyaya Namaha</li>
+                            <li>om Guhaya Namaha</li>
+                            <li>om Brahmanyaya Namaha</li>
+                            <li>om Vamsavrddhikaraya Namaha</li>
+                            <li>om Brahmanapriyaya Namaha</li>
+                            <li>om Aksayaphalapradaya Namaha</li>
+                            <li>om Vedavedh a a Namaha</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6">
+                        <ul>
+                            <li>ఓం స్కందాయ నమః</li>
+                            <li>ఓం గుహాయ నమః</li>
+                            <li>ఓం షణ్ముగాయ నమః</li>
+                            <li>ఓం ఫలనేత్రసుతాయ నమః</li>
+                            <li>ఓం ప్రభవే నమః</li>
+                            <li>ఓం పింగలాయ నమః</li>
+                            <li>ఓం కృతికాసూనవే నమః</li>
+                            <li>ఓం సికివాహాయ నమః</li>
+                            <li>ఓం ద్విసద్భుజాయ నమః</li>
+                            <li>ఓం ద్విసన్నేత్రాయ నమః</li>
+                            <li>ఓం శక్తిధరాయ నమః</li>
+                            <li>ఓం పిసితసప్రభంజనాయ నమః</li>
+                            <li>ఓం తారకాసురసంహారిణే నమః</li>
+                            <li>ఓం రక్షోబలవిమర్ధనాయ నమః</li>
+                            <li>ఓం మత్తాయ నమః</li>
+                            <li>ఓం ప్రమత్తాయ నమః</li>
+                            <li>ఓం ఉన్మత్తాయ నమః</li>
+                            <li>ఓం సురసైన్యసురరక్షకాయ నమః</li>
+                            <li>ఓం దేవసేనాపతయే నమః</li>
+                            <li>ఓం ప్రజ్ఞాయ నమః</li>
+                            <li>ఓం కృపాలవే నమః</li>
+                            <li>ఓం భక్తవత్సలాయ నమః</li>
+                            <li>ఓం ఉమాసుతాయ నమః</li>
+                            <li>ఓం శక్తిధరాయ నమః</li>
+                            <li>ఓం కుమారాయ నమః</li>
+                            <li>ఓం క్రౌంచధారణాయ నమః</li>
+                            <li>ఓం సేనాన్యై నమః</li>
+                            <li>ఓం అగ్నిజన్మనే నమః</li>
+                            <li>ఓం విశాఖాయ నమః</li>
+                            <li>ఓం శంకరాత్మజాయ నమః</li>
+                            <li>ఓం శివస్వామినే నమః</li>
+                            <li>ఓం స్వామినాథాయ నమః</li>
+                            <li>ఓం సర్వస్వామినే నమః</li>
+                            <li>ఓం సనాతనాయ నమః</li>
+                            <li>ఓం అనంతాసక్తయే నమః</li>
+                            <li>ఓం అక్శోభ్యాయ నమః</li>
+                            <li>ఓం పార్వతీప్రియనన్దనాయ నమః</li>
+                            <li>ఓం గంగాసుతాయ నమః</li>
+                            <li>ఓం సరోద్భూతాయ నమః</li>
+                            <li>ఓం పావకాత్మజాయ నమః</li>
+                            <li>ఓం గణస్వామినే నమః</li>
+                            <li>ఓం ఆత్మభువే నమః</li>
+                            <li>ఓం జృమ్భాయ నమః</li>
+                            <li>ఓం ప్రజృమ్భాయ నమః</li>
+                            <li>ఓం ఉజ్జృమ్భాయ నమః</li>
+                            <li>ఓం కమలాసనసంస్తుతాయ నమః</li>
+                            <li>ఓం ఏకవర్ణాయ నమః</li>
+                            <li>ఓం ద్వివర్ణాయ నమః</li>
+                            <li>ఓం త్రివర్ణాయ నమః</li>
+                            <li>ఓం సుమనోహరాయ నమః</li>
+                            <li>ఓం చాతుర్వర్ణాయ నమః</li>
+                            <li>ఓం పంచవర్ణాయ నమః</li>
+                            <li>ఓం ప్రజాపతయే నమః</li>
+                            <li>ఓం అహర్పతయే నమః</li>
+                            <li>ఓం అగ్నిగర్భాయ నమః</li>
+                            <li>ఓం సమీగర్భాయ నమః</li>
+                            <li>ఓం విశ్వరేతసే నమః</li>
+                            <li>ఓం సురారిఘ్నాయ నమః</li>
+                            <li>ఓం హరోద్వర్ణాయ నమః</li>
+                            <li>ఓం శుభకరాయ నమః</li>
+                            <li>ఓం వాసవాయ నమః</li>
+                            <li>ఓం వటువేషభృతే నమః</li>
+                            <li>ఓం పుష్ణే నమః</li>
+                            <li>ఓం గభస్తినే నమః</li>
+                            <li>ఓం గహనాయ నమః</li>
+                            <li>ఓం చంద్రవర్ణాయ నమః</li>
+                            <li>ఓం కళాధరాయ నమః</li>
+                            <li>ఓం మాయాధరాయ నమః</li>
+                            <li>ఓం మహామాయినే నమః</li>
+                            <li>ఓం కైవల్యాయ నమః</li>
+                            <li>ఓం సకలాత్మకాయ నమః</li>
+                            <li>ఓం విశ్వయోనయే నమః</li>
+                            <li>ఓం అమేయాత్మనే నమః</li>
+                            <li>ఓం తేజోనిధయే నమః</li>
+                            <li>ఓం అనమాయాయ నమః</li>
+                            <li>ఓం పరమేస్థినే నమః</li>
+                            <li>ఓం పరబ్రహ్మణే నమః</li>
+                            <li>ఓం వేదఘర్బాయ నమః</li>
+                            <li>ఓం విరద్వాపుషే నమః</li>
+                            <li>ఓం పులిన్దకన్యభర్తే నమః</li>
+                            <li>ఓం మహాసరస్వతావృతాయ నమః</li>
+                            <li>ఓం ఆశ్రితఖిలదాత్రే నమః</li>
+                            <li>ఓం చోరఘ్నాయ నమః</li>
+                            <li>ఓం రోగనాశనాయ నమః</li>
+                            <li>ఓం అనంతమూర్తయే నమః</li>
+                            <li>ఓం ఆనందాయ నమః</li>
+                            <li>ఓం శిఖణ్డికృతకేతనాయ నమః</li>
+                            <li>ఓం దమ్భాయ నమః</li>
+                            <li>ఓం పరమదాంభాయ నమః</li>
+                            <li>ఓం మహాదమ్బాయ నమః</li>
+                            <li>ఓం వృషకపాయే నమః</li>
+                            <li>ఓం కరణోపత్తదేహాయ నమః</li>
+                            <li>ఓం కరణాతీతవిగ్రహాయ నమః</li>
+                            <li>ఓం అనిశ్వరాయ నమః</li>
+                            <li>ఓం అమృతాయ నమః</li>
+                            <li>ఓం ప్రణాయ నమః</li>
+                            <li>ఓం ప్రాణాయామపరాయణాయ నమః</li>
+                            <li>ఓం విరుద్ధహన్త్రే నమః</li>
+                            <li>ఓం విరఘ్నాయ నమః</li>
+                            <li>ఓం రక్తస్యమగలాయ నమః</li>
+                            <li>ఓం మహతే నమః</li>
+                            <li>ఓం సుబ్రహ్మణ్యాయ నమః</li>
+                            <li>ఓం గుహాయ నమః</li>
+                            <li>ఓం బ్రహ్మణ్యాయ నమః</li>
+                            <li>ఓం వంశవృద్ధికారాయ నమః</li>
+                            <li>ఓం బ్రాహ్మణప్రియాయ నమః</li>
+                            <li>ఓం అక్షయఫలప్రదాయ నమః</li>
+                            <li>ఓం వేదవేద్ అ అ నమః</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    
+        <section class="as_whychoose_wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 text-center mt-3">
+                        <p>&copy; Copyrights, All Rights Reserved by <b>VEERAMANIKANTA</b></p>
+                    </div>
+                    <div class="col-lg-6 col-md-6 text-center">
+                        <p>Designed and Developed by <img src="assets/images/whitelogo.png" alt=""width="100px" height="50px" class="img-fluid"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        
+    </div>
+    
+
+ 
+
+      <!-- javascript -->
+      <script src="assets/js/jquery.js"></script>
+      <script src="assets/js/bootstrap.js"></script>
+      <script src="assets/js/custom.js"></script>
+</body>
+</html>
